@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kelubz General Hardware | Building Materials</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <a href="#home" class="logo">
+        KELUBZ <span>GENERAL HARDWARE</span>
+    </a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#cart" class="cart-link">
+        🛒 Cart (<span id="cart-count">0</span>)
+    </a>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="welcome">WELCOME TO KELUBZ GENERAL HARDWARE</p>
+
+        <h1>Building Your Dreams,<br>One Brick at a Time.</h1>
+
+        <p>
+            Your trusted destination for quality building materials,
+            roofing products, paints, plumbing supplies and tools.
+        </p>
+
+        <a href="#products" class="btn">Shop Products</a>
+    </div>
+</section>
+
+<section class="categories">
+    <h2>What Are You Looking For?</h2>
+
+    <div class="category-list">
+        <a href="#products">Building Materials</a>
+        <a href="#products">Roofing Materials</a>
+        <a href="#products">Paint & Finishing</a>
+        <a href="#products">Plumbing Supplies</a>
+        <a href="#products">Construction Tools</a>
+    </div>
+</section>
+
+<section class="products" id="products">
+
+    <h2>Our Products</h2>
+
+    <p class="subtitle">
+        Shop quality products for your next construction project.
+    </p>
+
+    <input
+        type="search"
+        id="search"
+        placeholder="Search cement, paint, nails..."
+        aria-label="Search products"
+    >
+
+    <div class="product-container" id="product-list"></div>
+
+    <p id="no-results" hidden>No products found. Try another search.</p>
+
+</section>
+
+<section class="cart-section" id="cart">
+    <h2>Your Shopping Cart</h2>
+
+    <div id="cart-items"></div>
+
+    <h3>Total: UGX <span id="cart-total">0</span></h3>
+
+    <button id="clear-cart" class="secondary-btn">
+        Clear Cart
+    </button>
+
+    <button id="checkout" class="btn">
+        Order Through WhatsApp
+    </button>
+</section>
+
+<section class="about" id="about">
+    <h2>About Kelubz General Hardware</h2>
+
+    <p>
+        Kelubz General Hardware is your destination for building
+        materials, roofing supplies, paints, plumbing products
+        and construction tools. We aim to help customers find
+        the materials they need for their building projects.
+    </p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Kelubz General Hardware</h2>
+
+    <p>Your trusted supplier of quality building materials.</p>
+
+    <p><strong>Location:</strong> Namulonge along zirobwe road from kampala gayaza road Uganda</p>
+
+    <p><strong>Phone:</strong> 0782374181</p>
+
+    <a
+        href="https://wa.me/256782374181"
+        class="btn"
+        target="_blank"
+        rel="noopener noreferrer">
+        Order on WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>
+        &copy; 2026 Kelubz General Hardware.
+        All rights reserved.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
